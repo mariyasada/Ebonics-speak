@@ -82,11 +82,13 @@ h2{
     color: white;
     text-shadow: 2px 2px black;
 }
-p{
-    text-align: center;
+.center p{
+     text-align: center; 
     color: white;
     font-size: 1rem;
-    display: block;
+    /* display: block; */
+    width:600px;
+    margin: auto;
 }
 /* footer{
     background-color: var(--primary-color);
