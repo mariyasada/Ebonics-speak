@@ -4,12 +4,13 @@ var txtoutput =document.querySelector("#text-output");
 
 var url="https://api.funtranslations.com/translate/ebonics.json";
 
-function constructUrl(text)
+//convert code into ES6
+const constructUrl = (text) =>
 {
     return url + "?" + "text=" + text;
 }
 
-function errorHandler(error){
+const errorHandler = (error) => {
     console.log("error occured",error);
     alert("something wrong with server! try again after some time");
 }
